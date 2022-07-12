@@ -1,6 +1,5 @@
 # Análisis Numérico FIUBA 
 
-Curso piloto 
 
 ### Planificacion
 
