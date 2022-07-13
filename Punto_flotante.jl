@@ -189,9 +189,9 @@ $$
 fl(x\;\odot\;y) = (x \;\odot \; y)\;(1 + \xi),\quad
 |\xi| \leq \epsilon_M.$$
 
-Para division, asumimos que  $y \neq 0$. Cualquier standar de la IEEE debe seguir esta regla.  Rounding is one of two limitations that floating point arithmetic has that real arithmetic does not have. You can quickly conclude from the above rule that as long as all that we do is add numbers of the same sign, multiply, and divide, floating point results will almost always come very close to the corresponding real arithmetic results. The difficulty occurs if we either of $x$ or $y$ is rounded, they have different signs and we add or have the same signs and we subtract.
+Para division, asumimos que  $y \neq 0$. Cualquier standar de la IEEE debe seguir esta regla. El redondeo es uno de los limitantes que la aritmética de punto flotante posee que la aritmética real no posee. Se puede concluir que siempre que  se sume números del mismo signo, multipliquen  o dividan, el resultado de punto flotante siempre será similar al que se obtenga con los resultados de la aritmética real. La dificultad ocurre cuando $x$ o $y$ son redondeados, ya que poseen distintos signos y debemos sumarlos o mismo signo y debamos restarlos
 
-That is, suppose we have
+En tal caso suponemos:
 
 $$
 \tilde{x}= x(1+\delta_x), \quad \tilde{y} = y(1+\delta_y),$$
